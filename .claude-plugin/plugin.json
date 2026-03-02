@@ -1,0 +1,8 @@
+{
+    "name": "mfse-agents",
+    "description": "MFSE multi-agent development team: orchestrators, architects, coders, reviewers, and crawlers",
+    "version": "1.0.0",
+    "author": {
+        "name": "Michele Ferracin"
+    }
+}

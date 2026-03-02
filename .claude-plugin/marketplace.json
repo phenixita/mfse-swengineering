@@ -1,0 +1,68 @@
+{
+  "name": "mfse-agents",
+  "owner": {
+    "name": "Michele Ferracin"
+  },
+  "plugins": [
+    {
+      "name": "mfse-00-facilitator",
+      "source": "./",
+      "description": "Facilitator that helps shape requirements into user stories and acceptance criteria"
+    },
+    {
+      "name": "mfse-01-crawler",
+      "source": "./",
+      "description": "Fast codebase crawler that gathers information and context about a topic"
+    },
+    {
+      "name": "mfse-01-crawler-azdo",
+      "source": "./",
+      "description": "Azure DevOps crawler for searching work items and wiki pages"
+    },
+    {
+      "name": "mfse-02-azdo-wit",
+      "source": "./",
+      "description": "Azure DevOps Boards expert for persisting work items and backlog management"
+    },
+    {
+      "name": "mfse-10-orchestrator",
+      "source": "./",
+      "description": "Workflow orchestrator coordinating Architect, Coder, and Reviewer agents"
+    },
+    {
+      "name": "mfse-11-architect",
+      "source": "./",
+      "description": "Lead Architect agent for system design, contracts, and blueprints"
+    },
+    {
+      "name": "mfse-12-coder",
+      "source": "./",
+      "description": "Expert Developer agent that implements architectural blueprints with TDD"
+    },
+    {
+      "name": "mfse-13-reviewer",
+      "source": "./",
+      "description": "Strict code reviewer auditing against blueprints and best practices"
+    },
+    {
+      "name": "mfse-14-theopus",
+      "source": "./",
+      "description": "Ultimate problem solver for exceptionally difficult or bizarre issues"
+    },
+    {
+      "name": "mfse-e2e",
+      "source": "./",
+      "description": "End-to-end orchestrator: from raw idea through requirements, architecture, implementation, and review"
+    },
+    {
+      "name": "mfse-user-stories-writing",
+      "source": "./",
+      "description": "Create effective User Stories with BDD acceptance criteria (Given/When/Then)"
+    },
+    {
+      "name": "mfse-azure-devops-cli-boards",
+      "source": "./",
+      "description": "Manage Azure DevOps Boards work items, queries, and relations via CLI"
+    }
+  ]
+}
