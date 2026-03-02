@@ -8,26 +8,26 @@ A multi-agent development team for coding agents. Orchestrates requirement shapi
 
 | Agent | Description |
 | - | - |
-| [mfse-00-facilitator](agents/mfse-00-facilitator/SKILL.md) | Shapes requirements into user stories and acceptance criteria |
-| [mfse-01-crawler](agents/mfse-01-crawler/SKILL.md) | Fast codebase crawler for gathering context |
-| [mfse-01-crawler-azdo](agents/mfse-01-crawler-azdo/SKILL.md) | Azure DevOps crawler for work items and wiki |
-| [mfse-02-azdo-wit](agents/mfse-02-azdo-wit/SKILL.md) | Azure DevOps Boards work item management |
+| [mfse-00-facilitator](agents/mfse-00-facilitator/mfse-00-facilitator.agent.md) | Shapes requirements into user stories and acceptance criteria |
+| [mfse-01-crawler](agents/mfse-01-crawler/mfse-01-crawler.agent.md) | Fast codebase crawler for gathering context |
+| [mfse-01-crawler-azdo](agents/mfse-01-crawler-azdo/mfse-01-crawler-azdo.agent.md) | Azure DevOps crawler for work items and wiki |
+| [mfse-02-azdo-wit](agents/mfse-02-azdo-wit/mfse-02-azdo-wit.agent.md) | Azure DevOps Boards work item management |
 
 ### Implementation Team (MFSE-1x)
 
 | Agent | Description |
 | - | - |
-| [mfse-10-orchestrator](agents/mfse-10-orchestrator/SKILL.md) | Workflow orchestrator coordinating the team |
-| [mfse-11-architect](agents/mfse-11-architect/SKILL.md) | Lead Architect for system design and blueprints |
-| [mfse-12-coder](agents/mfse-12-coder/SKILL.md) | Expert Developer implementing blueprints |
-| [mfse-13-reviewer](agents/mfse-13-reviewer/SKILL.md) | Strict code reviewer and quality gate |
-| [mfse-14-theopus](agents/mfse-14-theopus/SKILL.md) | Ultimate problem solver for hard issues |
+| [mfse-10-orchestrator](agents/mfse-10-orchestrator/mfse-10-orchestrator.agent.md) | Workflow orchestrator coordinating the team |
+| [mfse-11-architect](agents/mfse-11-architect/mfse-11-architect.agent.md) | Lead Architect for system design and blueprints |
+| [mfse-12-coder](agents/mfse-12-coder/mfse-12-coder.agent.md) | Expert Developer implementing blueprints |
+| [mfse-13-reviewer](agents/mfse-13-reviewer/mfse-13-reviewer.agent.md) | Strict code reviewer and quality gate |
+| [mfse-14-theopus](agents/mfse-14-theopus/mfse-14-theopus.agent.md) | Ultimate problem solver for hard issues |
 
 ### End-to-End
 
 | Agent | Description |
 | - | - |
-| [mfse-e2e](agents/mfse-e2e/SKILL.md) | Full pipeline: idea → user story → architecture → code → review |
+| [mfse-e2e](agents/mfse-e2e/mfse-e2e.agent.md) | Full pipeline: idea → user story → architecture → code → review |
 
 ### Supporting Skills
 
@@ -62,5 +62,5 @@ copilot plugin install phenixita/mfse-agents
 To add or modify an agent:
 
 1. Create or edit the folder under `agents/<agent-name>/`
-2. Add/update the `SKILL.md` file
+2. Add/update the `<agent-name>.agent.md` file
 3. Update the Available Agents table in this README
