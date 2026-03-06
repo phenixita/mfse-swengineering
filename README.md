@@ -1,8 +1,8 @@
-# MFSE Agents — AI Software Engineering Team
+# MFSE — Software Engineering Best Practices
 
-An evolving collection of AI agents that work together as a software engineering team. Each agent is a specialized prompt-driven persona — from requirements shaping to architecture, coding, and code review — designed to be composed into end-to-end development workflows.
+A collection of best practices, tools, and resources for software engineering teams — from AI agents for Copilot and similar platforms, to scripts and Azure DevOps integrations for monitoring and improving software delivery performance.
 
-The goal is to explore how AI agents can collaborate in structured pipelines, mimicking (and augmenting) the roles found in real software teams.
+The goal is to help teams move faster and deliver better software by combining AI-assisted workflows with concrete tooling: agents that act as specialized engineering personas (requirements shaping, architecture, coding, code review), and scripts that connect to Azure DevOps to track and improve team metrics.
 
 ## Agents
 
@@ -40,6 +40,27 @@ Reusable prompt modules that agents compose into their workflows.
 | [mfse-user-stories-writing](skills/mfse-user-stories-writing/SKILL.md) | Facilitator | BDD user story writing with Given/When/Then templates |
 | [mfse-azure-devops-cli-boards](skills/mfse-azure-devops-cli-boards/SKILL.md) | Azdo WIT | Azure DevOps Boards CLI commands for work items |
 
+## Scripts & Azure DevOps Integrations
+
+Standalone scripts to monitor team performance and support continuous improvement of software delivery.
+
+| Script | Description |
+| - | - |
+| [azdo_closed_prs.py](scripts/azdo_closed_prs.py) | Count completed (merged) pull requests across all repositories in an Azure DevOps project, with optional date range filtering |
+
+```bash
+# Install dependencies
+pip install -r scripts/requirements.txt
+
+# Run
+python scripts/azdo_closed_prs.py \
+  --org https://dev.azure.com/myorg \
+  --project MyProject \
+  --pat <TOKEN> \
+  --from-date 2024-01-01 \
+  --to-date 2024-12-31
+```
+
 ## How It Works
 
 The agents follow a structured pipeline that mirrors a real engineering team:
@@ -65,6 +86,7 @@ copilot plugin install phenixita/mfse-swengineering
 ```
 agents/          — one folder per agent, each with a <name>.agent.md prompt
 skills/          — reusable prompt modules referenced by agents
+scripts/         — standalone scripts for Azure DevOps monitoring and tooling
 .claude-plugin/  — plugin manifest for distribution
 ```
 
