@@ -102,7 +102,7 @@ The extended squad follows a broader pipeline:
 6. **Reviewer** audits the result against the blueprint and team conventions
 7. **TheOpus** is called in when the team hits a genuinely hard or unusual problem
 
-The full pipeline is run by chaining the Facilitator and Orchestrator agents.
+In both squads, the full implementation flow is typically initiated by the Facilitator and executed by the Orchestrator.
 
 ## Installing
 

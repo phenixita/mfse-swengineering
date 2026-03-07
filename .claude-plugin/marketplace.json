@@ -2,7 +2,7 @@
   "name": "mfse-agents",
   "metadata": {
     "version": "0.2.1",
-    "description": "A collection of specialized agents for Software Factory Michele Ferracin biased"
+    "description": "A collection of specialized software engineering agents for Michele Ferracin Software Factory workflows"
   },
   "owner": {
     "name": "Michele Ferracin",
@@ -17,7 +17,7 @@
     {
       "name": "mfse-coresquad-01-orchestrator",
       "source": "./agents/mfse-coresquad-01-orchestrator.agent.md",
-      "description": "Lean orchestrator coordinating Architect, Coder, and Reviewer through explicit gates"
+      "description": "Lean orchestrator coordinating Architect, optional DBA Specialist, Coder, and Reviewer through explicit gates"
     },
     {
       "name": "mfse-coresquad-02-architect",
@@ -32,7 +32,7 @@
     {
       "name": "mfse-coresquad-04-reviewer",
       "source": "./agents/mfse-coresquad-04-reviewer.agent.md",
-      "description": "Pragmatic reviewer focused on blockers, regressions, contract drift, and validation gaps"
+      "description": "Pragmatic reviewer focused on blockers, regressions, contract drift, validation gaps, and persistence drift when relevant"
     },
     {
       "name": "mfse-coresquad-05-dba-specialist",
