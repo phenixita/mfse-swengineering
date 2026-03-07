@@ -1,4 +1,4 @@
-# MFSE — Software Engineering Best Practices
+# MFSE — Michele Ferracin Software Engineering Best Practices
 
 A collection of best practices, tools, and resources for software engineering teams — from AI agents for Copilot and similar platforms, to scripts and Azure DevOps integrations for monitoring and improving software delivery performance.
 
