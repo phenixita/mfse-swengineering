@@ -4,7 +4,7 @@ Follow the Conventional Commits specification: https://www.conventionalcommits.o
 
 ## Format
 
-<type>(<scope>): <subject>
+`<type>(<scope>): <subject>`
 
 [optional body]
 
