@@ -1,7 +1,7 @@
 {
   "name": "mfse-agents",
   "metadata": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "A collection of specialized software engineering agents for Michele Ferracin Software Factory workflows"
   },
   "owner": {

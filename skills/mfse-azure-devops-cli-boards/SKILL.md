@@ -1,5 +1,5 @@
 ---
-name:  MFSE-azure-devops-cli-boards
+name:  mfse-azure-devops-cli-boards
 description: 'Manage Azure DevOps boards using CLI commands. Use when: creating, updating, or querying work items, boards, and sprints. Generates complete, properly formatted CLI commands for Azure DevOps.'
 argument-hint: 'Write this work item to azure devops'
 user-invocable: true

@@ -1,5 +1,5 @@
 ---
-name: MFSE-user-stories-writing
+name: mfse-user-stories-writing
 description: 'Create effective User Stories with step-by-step guidance. Use when: drafting new features, documenting requirements, writing acceptance criteria in standard BDD format (Given/When/Then). Generates complete, properly formatted User Stories.'
 argument-hint: 'Requirement to write as a User Story'
 ---
