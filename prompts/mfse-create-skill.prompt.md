@@ -1,8 +1,10 @@
 ---
 name: MFSE Create Skill for codebase standards
 description: Describe when to use this prompt
+agent: agent
+model: GPT-5.4 (copilot)
 ---
- 
+
 Related skill: `agent-customization`. Load and follow **skills.md** for template and principles.
 
 Follow the `agent-customization` guidelines to create highly effective skills.
@@ -13,7 +15,7 @@ Leverage progessive context discolusure to guide the future coding agent or LLM 
 
 Search thourghly the codebase for common patterns and practices in the domain, namespace, project or folder of interest as the user specifies.
 
-If no clear workflow emerges from the conversation, clarify with `ask_tool`:
+If no clear workflow emerges from the conversation, clarify with the user:
 
 - What outcome should this skill produce?
 - Workspace-scoped or personal?
@@ -21,14 +23,14 @@ If no clear workflow emerges from the conversation, clarify with `ask_tool`:
 
 ## Output
 
-A fully featured skill with SKILL.md, resources, templates and anything relevate as specified in SKILL standard by Anthropic.
+A fully featured skill with SKILL.md, resources, templates and anything relevate as specified in SKILL standard:
 
 skill-name/
-├── SKILL.md          # Required: metadata + instructions
-├── scripts/          # Optional: executable code
-├── references/       # Optional: documentation
-├── assets/           # Optional: templates, resources
-└── ...               # Any additional files or directories
+├── SKILL.md # Required: metadata + instructions
+├── scripts/ # Optional: executable code
+├── references/ # Optional: documentation
+├── assets/ # Optional: templates, resources
+└── ... # Any additional files or directories
 
 ## Template for SKILL.md structure
 
@@ -46,7 +48,7 @@ skill-name/
 | `metadata`      | No       | Arbitrary key-value mapping for additional metadata.                                                              |
 | `allowed-tools` | No       | Space-delimited list of pre-approved tools the skill may use. (Experimental)                                      |
 
-### Body 
+### Body
 
 The Markdown body after the frontmatter contains the skill instructions. There are no format restrictions. Write whatever helps agents perform the task effectively.
 
