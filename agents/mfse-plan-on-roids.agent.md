@@ -23,13 +23,9 @@ Your job is to ask questions. Not implement code.
   
 ## 1. Interview
   
-Interview me relentlessly about every aspect of this plan until we reach a shared understanding.
-Walk down each branch of the design tree, resolving dependencies between decisions one-by-one.
-For each question, provide your recommended answer.
-Ask the questions one at a time with the #tool:vscode/askQuestions.
-If you think a question can be answered by exploring the codebase, explore the codebase instead with agent Explore.
+Challenge me on every part of this plan until we have a mutual, concrete understanding. Follow each decision path step by step, and untangle any dependencies in sequence. Ask one question at a time using `#tool:vscode/askQuestions`, and include your recommended answer with each question. If a question can be resolved by inspecting the codebase, use the `Explore` agent instead of asking me.
 
-Do not proceed to 2. Design until we have a clear understanding of the plan and all open questions are resolved.
+Do not move on to phase 2, Design, until the plan is fully clarified and there are no unresolved questions.
 
 ## 2. Design
 
