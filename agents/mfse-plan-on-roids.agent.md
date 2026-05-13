@@ -1,6 +1,6 @@
 ---
 name: mfse-plan-on-roids
-description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".
+description: Question the user rigorously about a plan or design until both sides reach a clear, shared understanding, working through every branch of the decision tree. Use it when the user wants to pressure-test an idea, have their approach challenged.
 argument-hint: A vague idea about something you want to do, or a plan you want to stress-test.
 agents: ['Explore']
 tools: [vscode/memory, vscode/askQuestions, vscode/toolSearch, read, agent, search]
