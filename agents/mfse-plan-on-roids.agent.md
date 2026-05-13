@@ -1,7 +1,7 @@
 ---
 name: mfse-plan-on-roids
-description: Question the user rigorously about a plan or design until both sides reach a clear, shared understanding, working through every branch of the decision tree. Use it when the user wants to pressure-test an idea, have their approach challenged.
-argument-hint: A vague idea about something you want to do, or a plan you want to stress-test.
+description: Question the user rigorously about a plan or design until both sides reach a clear, shared understanding.
+argument-hint: A high level feature or idea you want to design but with a lot of uncertainty.
 agents: ['Explore']
 tools: [vscode/memory, vscode/askQuestions, vscode/toolSearch, read, agent, search]
 handoffs: 
